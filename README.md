@@ -1,4 +1,4 @@
-# ESP-Web-Server-v2ESP8266 Web Server-v2
+# ESP-Web-Server-v2
 
 A web server built using the ESP8266 using the WEMOS D1 Mini to ease the build and assembly, but any ESP8266 would do.
 
