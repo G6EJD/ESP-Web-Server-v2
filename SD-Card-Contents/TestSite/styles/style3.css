@@ -1,0 +1,112 @@
+﻿@import url("layout.css");
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	background-color: #67b;
+}
+#container {
+	width: 630px;
+	margin: 0 auto;
+	background-color: #cdf;
+}
+#masthead {
+	text-align: right;
+	width: 630px;
+	overflow: auto;
+	background-color: #ddb;
+}
+#sidebar {
+	float: left;
+	width: 154px;
+	background-color: #cdf;
+	position: relative;
+	clear: both;
+	display: inline;
+}
+#content {
+	float: left;
+	width: 446px;
+	padding: 15px;
+	overflow: auto;
+	background-color: #fff;
+	margin: 0px;
+	position: relative;
+}
+#content img {
+	display: block;
+}
+#footer {
+	clear: both;
+	width: 630px;
+	background-color: #dcb;
+	padding: 0;
+	overflow: auto;
+	margin-top: 0px;
+}
+#masthead img {
+	float: left;
+}
+#masthead p {
+	text-align: right;
+	margin: 0;
+	margin-top: 5px;
+	margin-right: 10px;
+	padding: 0;
+}
+/* Styles for Navigation */
+#sidebar ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#sidebar li {
+	display: block;
+	border: 1px solid #cdf;
+}
+#sidebar a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #04b;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #f9f9f9;
+}
+#sidebar a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #04b;
+	border-bottom: 1px solid #f9f9f9;
+	background-color: #f9f9f9;
+}
+/* Styles for Footer */
+#footer p {
+	font-size: 0.9em;
+	text-align: center;
+	margin: 0px;
+	padding: 2px;
+}
+#footer a {
+	color: #333;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #333;
+	text-decoration: none;
+}
+a {
+	color: #04b;
+	text-decoration: underline;
+}
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}

@@ -1,0 +1,111 @@
+﻿@import url("layout.css");
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	background-color: #abc;
+}
+#container {
+	width: 646px;
+	margin: 0 auto;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+}
+#masthead {
+	width: 626px;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	overflow: auto;
+	background-color: #bde;
+}
+#sidebar {
+	float: left;
+	width: 150px;
+	background-color: #d3d3d3;
+	position: relative;
+	clear: both;
+	margin-left: 10px;
+	display: inline;
+}
+#content {
+	float: right;
+	width: 456px;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-left: 0;
+	padding: 10px;
+	background-color: #fff;
+	position: relative;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	width: 626px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0;
+	overflow: auto;
+	background-color: #689;
+}
+#masthead img {
+	float: left;
+}
+#masthead p {
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/* Styles for Navigation */
+#sidebar ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#sidebar li {
+	font-size: 0.9em;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #d3d3d3;
+}
+#sidebar a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #118;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #f2f2f2;
+}
+#sidebar a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #118;
+	border-bottom: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+}
+/* Styles for Footer */
+#footer p {
+	font-size: 0.8em;
+	color: #fff;
+	margin: 2px;
+	padding: 2px;
+}
+#footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
