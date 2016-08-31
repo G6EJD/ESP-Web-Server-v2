@@ -19,8 +19,8 @@ String webpage = "";
 #define temp_error_offset     -2
 #define humidity_error_offset 16
 
-const char *ssid     = "SKY6D12C";
-const char *password = "WQSUBEPQ";
+const char *ssid     = "********"; // Enter your SSID here
+const char *password = "********"; // Enter your password here
 
 ESP8266WebServer server(80);  // Set the port you wish to use, a browser default is 80, but any port can be used, if you set it to 5555 then connect with http://nn.nn.nn.nn:5555/
   
