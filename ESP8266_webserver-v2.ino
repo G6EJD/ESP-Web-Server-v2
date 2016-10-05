@@ -33,7 +33,7 @@ void setup(void){
   WiFi.begin(ssid, password);
   dht.begin();
   delay(100);
-  update_temperature_and_humidity(); // Initial read to proevent unkown values that sometimes occur
+  update_temperature_and_humidity(); // Initial read to proevent unknown values that sometimes occur
   Serial.print("Connecting to ");
   Serial.println(ssid);
   // Wait for connection
@@ -49,7 +49,9 @@ void setup(void){
   Serial.println(WiFi.localIP()); // Use the IP address printed here to connect to the server e.g. http://192.168.0.42
 
   //server.on("/",[] {}, handle_root);                 // Define what happens when a client requests attention
+                                                       // for example http://your_ip_address/
   server.on("/LED_on",  led_on);                       // Define what happens when a client requests attention
+                                                       // for example http://your_ip_address/LED_on
   server.on("/LED_off", led_off);                      // Define what happens when a client requests attention
   server.on("/RELAY_on",  relay_on);                   // Define what happens when a client requests attention
   server.on("/RELAY_off", relay_off);                  // Define what happens when a client requests attention
@@ -68,7 +70,7 @@ void setup(void){
 }
 
 void loop(){
-  server.handleClient();
+  server.handleClient();   // Wait for a client to connect and when they do process their requests
 }
 
 //----------- Subroutines
